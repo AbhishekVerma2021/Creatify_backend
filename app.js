@@ -40,7 +40,7 @@ const server = http.createServer(app);  // Create HTTP server
 const io = new Server(server, {
   cors: {
     pingTimeout: 60000,
-    origin: 'http://localhost:3000',
+    origin: 'https://creatify-nine.vercel.app/',
   }
 });  // Attach Socket.io to HTTP server
 
